@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cat Clicker</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container" id="catImageArea"></div>
+
+    <div id="catList"></div>
+
+    <div id="adminArea"></div>
+    <div id="adminForm" class="hideAdminForm">
+      <form name="myForm" onsubmit="return false;">
+        <input id="adminFormCatName" name="catName" type="text" value=""/><br/>
+        <input id="adminFormCatClicks" name="catClicks" type="number" value=""/><br/>
+        <button type="submit" id="save">save</button>
+      </form>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
